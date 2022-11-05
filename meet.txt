@@ -1,0 +1,82 @@
+fejhfioesckzxmvfd
+'fpsdgiod x
+d'dvhdivxcl.
+xoefjsiodvkxd'cb
+
+ 9:45 AM: exp3 (GIT-HUB)
+
+git config --global user.name 'AwadeAnkit'
+git config --global user.email 'awadeankit619@gmail.com'
+git config --list
+git config user.name
+git help
+
+exp4 (GIT-HUB)
+
+mkdir ankit
+cd ~/ankit/
+git init
+git config --global --list
+touch catch
+ls
+cat > catch
+(this is practical lab) clt+z
+cat catch
+git status
+git add .
+git status
+git commit -m "My first file version"
+git status
+git log
+git show (first nine words)
+6:27 AM: --------------------------------------------------------------------------------
+
+EXP NO.06 (MASTER-SLAVE)
+
+sudo su
+ssh ip add
+ssh-keygen
+cd /root/.ssh
+ls
+rm -rf id_rsa id_rsa.pub knoun_hosts
+Exit
+
+JENKINS
+
+Manage Jenkins
+Manage node and cloud
++new mode=name=create
+no.of ex:1
+remote root :/tmp
+host: ip addr
+launch method: via ssh
+credenails: apsit/****= save
+clickon name = relaunch = ss
+6:32 AM: -------------------------------------------------------------------------------
+
+EXP NO 12 (ANSIBLE)
+
+cd /etc/ansible
+ls
+cd playbooks/
+ls
+sudo rm -rf playbook1.yml
+sudo touch ankit.yml
+sudo vi ankit.yml
+ansible-playbook ankit.yml
+
+
+- name: nginx install and start services
+hosts: all
+become: true
+
+tasks:
+- name: install nginx
+apt:
+name: nginx
+state: latest
+
+- name: start nginx
+service:
+name: nginx
+state: started
